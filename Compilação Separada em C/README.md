@@ -22,9 +22,9 @@ Pequena demonstração de como separar **protótipos** (`.h`) e **implementaçõ
 ```
 
 ## Como Clonar Repositório
-Abra o Terminal, copie a url e digite:
+Abra o Terminal, digite:
 ```
-git clone url
+git clone https://github.com/othaviocc/Compiladores.git 
 ```
 
 ## Como Compilar
