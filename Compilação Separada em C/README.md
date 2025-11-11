@@ -55,5 +55,7 @@ Remove o executável e todos os objetos.
 - **Makefile**: recompila apenas o necessário a cada alteração e oferece alvos utilitários (`run`, `clean`).
 
 Autores: Othavio Christmann Correa e Theo Corvello Soares
+
 Turma Engenharia de Computação FURG
+
 Disicplina: Compiladores
