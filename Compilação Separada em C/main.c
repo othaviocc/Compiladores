@@ -13,9 +13,9 @@ int main(void)
     printf("soma(4, 6) = %d\n", s);
     s = subtrai(s, 7);
     printf("subtrai(resultado, 7) = %d\n", s);
-    s = multiplica(3, 5);
+    s = mult(3, 5);
     printf("multiplica(3, 5) = %d\n", s);
-    s = divisao(10, 2);
+    s = div(10, 2);
     printf("divisao(10, 2) = %d\n", s);
     s = modulo(10, 3);
     printf("modulo(10, 3) = %d\n", s);

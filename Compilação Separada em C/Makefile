@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -Wall -Wextra -pedantic -std=c11
+CFLAGS := -Wall -Wextra -pedantic -std=c11 -lm
 TARGET := main
 SRCS := main.c soma.c subtrai.c mult.c div.c modulo.c potencia.c
 OBJS := $(SRCS:.c=.o)
@@ -8,7 +8,7 @@ OBJS := $(SRCS:.c=.o)
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
-	$(CC) $(OBJS) -o $@
+	$(CC) $(OBJS) $(CFLAGS) -o $@
 
 main.o: main.c soma.h subtrai.h
 soma.o: soma.c soma.h

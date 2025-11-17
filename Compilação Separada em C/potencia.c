@@ -3,6 +3,7 @@
 
 int potencia(int base, int exp)
 {
+
     return pow(base, exp);
 }
 
