@@ -1,4 +1,4 @@
-# Exemplo: Compilação Separada em C
+# Compilação Separada em C
 
 Pequena demonstração de como separar **protótipos** (`.h`) e **implementações** (`.c`) usando `make` para automatizar a compilação. Ideal para estudantes que estão migrando de exemplos monolíticos para projetos modulares em C.
 
@@ -22,7 +22,7 @@ Pequena demonstração de como separar **protótipos** (`.h`) e **implementaçõ
 ```
 
 ## Como Clonar Repositório
-Abra o Terminal, digite:
+Abra o Terminal, e digite:
 ```
 git clone https://github.com/othaviocc/Compiladores.git 
 ```
@@ -56,6 +56,6 @@ Remove o executável e todos os objetos.
 
 Autores: Othavio Christmann Correa e Theo Corvello Soares
 
-Turma Engenharia de Computação FURG
+Turma de Engenharia de Computação - FURG
 
-Disicplina: Compiladores
+Disciplina: Compiladores
